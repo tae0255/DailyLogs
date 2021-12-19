@@ -12,6 +12,10 @@
 
 ## Contents
 
+#### 21/12/18 SQL SELECT문 관련내용을 정리했다.
+
+SET 변수, WITH RECURSIVE, GROUP BY, 문법/실행순서, DATE_FORMAT, 컬럼/테이블 별칭, 테이블 조인 연산, WHERE, IF ELSE, LIMIT, SUBSTR
+
 #### 21/12/17 자바 스트림에서 다양한 리듀스 연산을 수행할 수 있다. 프로그래머스 SQL 고득점 Kit를 완주했다!
 
 - 자바 스트림 누적자 리듀싱 연산
