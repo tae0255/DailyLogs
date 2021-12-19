@@ -12,6 +12,8 @@
 
 ## Contents
 
+#### 21/12/19 자바 스트림 filter, collect 등 메서드 사용법을 복습했다.
+
 #### 21/12/18 SQL SELECT문 관련내용을 정리했다.
 
 SET 변수, WITH RECURSIVE, GROUP BY, 문법/실행순서, DATE_FORMAT, 컬럼/테이블 별칭, 테이블 조인 연산, WHERE, IF ELSE, LIMIT, SUBSTR
