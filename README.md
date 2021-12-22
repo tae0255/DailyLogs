@@ -2,15 +2,41 @@
 
 ![](비모.gif)
 
-그날그날 공부한 내용을 한 줄로 요약해 업로드합니다. TIL은 프라이빗 레포로 관리 중이고, 충분히 이해하고 나누고 싶은 것을 골라 [네이버 블로그](https://blog.naver.com/PostList.naver?blogId=pty115&from=postList&categoryNo=71)에 올리고 있습니다.
+*done is better than perfect, 初志貫徹*
 
-#### on-going
+그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리합니다. 충분히 이해한 내용, 나누고 싶은 내용은 [네이버 블로그](https://blog.naver.com/PostList.naver?blogId=pty115&from=postList&categoryNo=71)에 올리고 있습니다.
 
-- Java8, 11
-- Kotlin/Android
-- Interview(CS/algorithm)
+#### :runner: on-going
+
+- 과제평가 대비 
+- 알고리즘/SQL 문제풀이
+- Java8, 11 (~2월)
+
+#### :fist_oncoming: hold
+
+- Kotlin/Android (~1월)
+
+- CS지식 구술평가 대비 (~12월말)
 
 ## Contents
+
+#### 21/12/22 SQL문제풀이, URL/URI란, 운영체제 개념복습
+
+- ANSI SQL은 DBMS 종류에 제약을 받지 않는다.
+  - [친절한 SQL 튜닝 - YES24](http://www.yes24.com/Product/Goods/61254539)(오라클DB)
+  - [Real MySQL - YES24](http://www.yes24.com/Product/Goods/6960931)
+
+- [URI,URL,URN](https://github.com/CodingInterviewStudy/CrackingTheCodingInterview/wiki/7주차-2) : 이전에는 `naver.com/main.html`과 같이 웹사이트 리소스를 위치로(URL/URI) 불러오는 방식이었으나, 최근에는 Restful을 추구하며 `naver.com/main`으로 구분자를 통해(URI) 불러온다.
+  - ![img](https://camo.githubusercontent.com/99a24e41700a0c2deeaf357291cfd916d518399454f72dca6e0b43ba35b149dc/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f3030386933736b4e6779316776716d3938767471376a3630626a30366d30737630322e6a7067)
+
+- 페이지교체 알고리즘
+  - LRU 가장 오랫동안 참조되지 않은 페이지를 교체
+  - LFU 참조횟수가 가장 적은 페이지를 교체, 왜냐하면 초기에 집중적으로 참조한 페이지는 더 필요하지 않을 수 있으므로
+  - MFS 참조횟수가 가장 많은 페이지를 교체, 왜냐하면 참조횟수가 적으면 최근에 불러와 사용중인 페이지일 수 있으므로
+
+#### 21/12/21 페이지교체 알고리즘, 단편화, 캐시 지역성에 대해 복습했다.
+
+깊이 들어가면 끝이 없다. 개념 복습으로 마무리하고, 개발에 어떻게 활용할지 고민하면서 더 파고 들어가야 하겠다.
 
 #### 21/12/20 프로세스, 멀티 프로세스, 프로세스 스케줄링에 대해 복습했다.
 
