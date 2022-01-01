@@ -9,17 +9,44 @@
 #### :runner: on-going
 
 - 알고리즘/SQL 문제풀이
-- CS지식 구술평가 대비 (~12월말)
 - Java8, 11 (~2월)
 
 #### :fist_oncoming: hold
 
 - Kotlin/Android (~1월)
+- Java/SpringBoot (~1월)
 - 프로그래머스 과제평가 연습문제 풀이
+- 포트폴리오를 위한 토이프로젝트
+
+####  :man_dancing: well-done
+
+- CS지식 구술평가 대비(네트워크/운영체제)
 
 ## Contents
 
-#### 21/12/30 면접대비 MYSQL 리뷰
+#### 22/1/1 자바8은 컬렉션 객체를 보다 쉽게 다룰 수 있는 여러 유용한 메서드를 추가했다.
+
+of 메서드로 작은 컬렉션을 보다 엄밀한 의미의 '불변객체'로 선언할 수 있다. 리스트에 removeIf, replaceAll로 객체의 순회/변경을 추상화할 수 있다. 또한 맵도 forEach, sorted, getOrDefault, computeIfAbsent, remove, replaceAll 등으로 순회/변경 과정을 추상화할 수 있다.
+
+- SQL/알골
+  - [(1) Customers Who Never Order - LeetCode](https://leetcode.com/problems/customers-who-never-order/submissions/)
+  - [211230코테](####21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.) 2번문제 리뷰 : 규칙체크 - 업데이트 - 종료조건검사 - 재귀호출
+
+#### 21/12/31 병렬처리가 꼭 순차처리보다 빠른 것만은 아니다. SQL/알골 문제도 풀었다.
+
+내부 반복을 이용해 명시적으로 다른 스레드를 사용하지 않고도 스트림을 병렬로 처리할 수 있다. 간단하게 스트림으로 병렬 처리할 수 있지만 항상 병렬 처리가 빠른 것은 아니다. 필요할 때는 순차 처리와 성능을 직접 측정해서 비교해봐야 한다. 병렬 스트림으로 데이터 집합을 처리할 때 처리해야할 데이터가 아주 많거나 각 요소를 처리하는 데 오래 걸릴 때 성능을 높일 수 있다. 가능하면 기본형 특화 스트림 등 올바른 자료구조를 선택이 어떤 연산을 병렬로 처리하는 것보다 성능적으로 더 큰 영향을 미칠 수 있다. 아울러 병렬 처리할 때에도 적합한 자료구조를 택해야 성능상 이점을 온전히 누릴 수 있다. 포크/조인 프레임워크는 병렬화할 수 있는 태스크를 작은 태스크로 분할하여 각각의 스레드로 실행하며 서브태스크 결과를 합쳐서 최종 결과를 생산한다. Spliterator는 탐색하려는 데이터를 포함하는 스트림을 어떻게 병렬화할 것인지 정의한다.
+
+- SQL/알골
+
+  - [(1) Employees Earning More Than Their Managers - LeetCode](https://leetcode.com/problems/employees-earning-more-than-their-managers/)
+
+  - [(1) Duplicate Emails - LeetCode](https://leetcode.com/problems/duplicate-emails/)
+
+  - [211230코테](####21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.) 1번문제 리뷰 : 부등호 구간을 잘못 적어서 틀렸던 거임
+
+#### 21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.
+
+시뮬레이션/조합문제. 지문이 길고 제약사항이 많았다. 문제 자체는 어렵지 않았으나 풀기가 벅찼다. 그럼에도 불구하고, 계속 연습해보는 수밖에 없다.
 
 #### 21/12/29 면접대비 운영체제, 네트워크 개념 리뷰
 
