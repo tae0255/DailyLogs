@@ -24,6 +24,44 @@
 
 ## Contents
 
+#### 21/1/4 알골/SQL을 풀다보니, 마냥 풀기보다 잘 짜여진 코드를 더 많이 보고싶다.
+
+안드로이드 액티비태 생애주기, LogCat
+
+- SQL/알골
+
+  - [(1) Human Traffic of Stadium - LeetCode](https://leetcode.com/problems/human-traffic-of-stadium/submissions/)
+
+  - ```mysql
+    SELECT ID, VISIT_DATE, PEOPLE
+    FROM STADIUM S
+    WHERE (PEOPLE >= 100)
+        AND (((SELECT ID FROM STADIUM WHERE ID=S.ID-1 AND PEOPLE >= 100) IS NOT NULL 
+        AND (SELECT ID FROM STADIUM WHERE ID=S.ID-2 AND PEOPLE >= 100) IS NOT NULL) 
+        OR ((SELECT ID FROM STADIUM WHERE ID=S.ID+1 AND PEOPLE >= 100) IS NOT NULL 
+        AND (SELECT ID FROM STADIUM WHERE ID=S.ID+2 AND PEOPLE >= 100) IS NOT NULL)
+        OR ((SELECT ID FROM STADIUM WHERE ID=S.ID-1 AND PEOPLE >= 100) IS NOT NULL 
+        AND (SELECT ID FROM STADIUM WHERE ID=S.ID+1 AND PEOPLE >= 100) IS NOT NULL))
+    ORDER BY VISIT_DATE
+    ```
+
+  - ```mysql
+    select id, visit_date, people 
+    from (
+    select id, visit_date, people,
+           CASE WHEN min(people) OVER(ORDER BY id ROWS BETWEEN CURRENT ROW AND 2 FOLLOWING) >= 100 THEN 'YES'
+    			WHEN min(people) OVER(ORDER BY id ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) >= 100 THEN 'YES'
+    			WHEN min(people) OVER(ORDER BY id ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) >= 100 THEN 'YES'
+                ELSE 'NO'
+           END as condition_check
+    from tmp        
+        ) t 
+    where condition_check = 'YES'
+    ORDER BY 2
+    ```
+
+  - [211230코테](####21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.) 3번문제 풀이, 피라미드를 배열에 담아 탐색, 코드는 167줄
+
 #### 21/1/3 HttpURLConnection, Java-Json을 사용해서 공공데이터포털 API사용 실습.
 
 - HTTP 상태코드. 
