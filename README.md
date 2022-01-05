@@ -24,6 +24,16 @@
 
 ## Contents
 
+#### 21/1/5 안드로이드 액티비티/프래그먼트 수명주기를 복습, 액티비티 외부에서 수명주기를 관찰하고 작업을 수행할 수 있다.
+
+액티비티 콜백 메서드는 생성 시점부터 제거될 때까지 다음 순서대로 호출된다: onCreate, onStart, onResume, onPause, onStop, onDestroy. 프래그먼트는 액티비티와 비슷한 수명주기를 가지나, 사용자 시야에서 벗어나면 곧바로 제거된다는 차이점이 있다. Lifecycle 라이브러리를 사용해 액티비티 외부에서 수명주기를 관찰하고 작업을 수행할 수 있다.
+
+- SQL/알골
+  - [(1) Not Boring Movies - LeetCode](https://leetcode.com/problems/not-boring-movies/submissions/)
+
+- 일일면접 : 팩토리 메서드 패턴은 무엇이고 언제 사용할 수 있나요?
+  - 객체 생성을 서브클래스/메서드로 위임하는 것으로, 상황에 맞춰 객체를 다르게 생성해야 할 때 사용할 수 있다. 추상 팩토리 패턴은, 팩토리 메서드를 별도 인터페이스에서 정의해두고 그 인터페이스를 구현한 클래스를 사용하는 것이다. 예시 : `List<String> list = ListFactory.of(array); `, `List<String> list2 = ListFactory.of(jsonString);` (참고: [디자인패턴:팩토리 패턴(Factory Pattern) – friday's blog (fun25.co.kr)](http://friday.fun25.co.kr/blog/?p=280))
+
 #### 21/1/4 알골/SQL을 풀다보니, 마냥 풀기보다 잘 짜여진 코드를 더 많이 보고싶다.
 
 안드로이드 액티비태 생애주기, LogCat
