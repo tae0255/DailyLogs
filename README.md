@@ -24,6 +24,11 @@
 
 ## Contents
 
+#### 21/1/10 꾸준한건 좋지만, 절대적인 학습량을 늘릴 필요가 있다.
+
+- SQL/알골/일일면접
+  - W3schools SQL Tutorial 완주
+
 #### 21/1/8 알고리즘 문제풀이는 아직 한참 부족하구나. SQL은 문법을 한번 돌려야겠다.
 
 - SQL/알골 : SQL은 전체문법을 훑어볼 필요가 있겠고, 알고리즘은 계속 풀어보면서 문제패턴을 통채로 외우면서 감을 익히는 수밖에 없겠다.
@@ -65,36 +70,7 @@
 - SQL/알골
 
   - [(1) Human Traffic of Stadium - LeetCode](https://leetcode.com/problems/human-traffic-of-stadium/submissions/)
-
-  - ```mysql
-    SELECT ID, VISIT_DATE, PEOPLE
-    FROM STADIUM S
-    WHERE (PEOPLE >= 100)
-        AND (((SELECT ID FROM STADIUM WHERE ID=S.ID-1 AND PEOPLE >= 100) IS NOT NULL 
-        AND (SELECT ID FROM STADIUM WHERE ID=S.ID-2 AND PEOPLE >= 100) IS NOT NULL) 
-        OR ((SELECT ID FROM STADIUM WHERE ID=S.ID+1 AND PEOPLE >= 100) IS NOT NULL 
-        AND (SELECT ID FROM STADIUM WHERE ID=S.ID+2 AND PEOPLE >= 100) IS NOT NULL)
-        OR ((SELECT ID FROM STADIUM WHERE ID=S.ID-1 AND PEOPLE >= 100) IS NOT NULL 
-        AND (SELECT ID FROM STADIUM WHERE ID=S.ID+1 AND PEOPLE >= 100) IS NOT NULL))
-    ORDER BY VISIT_DATE
-    ```
-
-  - ```mysql
-    select id, visit_date, people 
-    from (
-    select id, visit_date, people,
-           CASE WHEN min(people) OVER(ORDER BY id ROWS BETWEEN CURRENT ROW AND 2 FOLLOWING) >= 100 THEN 'YES'
-    			WHEN min(people) OVER(ORDER BY id ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING) >= 100 THEN 'YES'
-    			WHEN min(people) OVER(ORDER BY id ROWS BETWEEN 2 PRECEDING AND CURRENT ROW) >= 100 THEN 'YES'
-                ELSE 'NO'
-           END as condition_check
-    from tmp        
-        ) t 
-    where condition_check = 'YES'
-    ORDER BY 2
-    ```
-
-  - [211230코테](####21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.) 3번문제 풀이, 피라미드를 배열에 담아 탐색, 코드는 167줄
+- [211230코테](####21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.) 3번문제 풀이, 피라미드를 배열에 담아 탐색, 코드는 167줄
 
 #### 22/1/3 HttpURLConnection, Java-Json을 사용해서 공공데이터포털 API사용 실습.
 
