@@ -10,8 +10,8 @@
 
 - 알고리즘/SQL(문법위주) 문제풀이
 - Java8, 11 (~2월)
-- Kotlin/Android (~1월) :turtle:
-- Java/SpringBoot (~1월) :turtle:
+- Kotlin/Android (~1월) :turtle::turtle:
+- Java/SpringBoot (~1월) :turtle::turtle:
 
 #### :fist_oncoming: hold
 
@@ -23,6 +23,12 @@
 - CS지식 구술평가 대비(네트워크/운영체제)
 
 ## Contents
+
+#### 22/1/23 자바8 Optional, 날짜/시간처리 라이브러리 복습, 그리고 자기소개서.
+
+p.381, p.387 잘 이해가 안 간다.
+
+저는 엄격한 아버지와 자애로운 어머니께 ........
 
 #### 22/1/21 자바8의 날짜/시간처리 라이브러리를 복습했다.
 
