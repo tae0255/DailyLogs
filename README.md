@@ -24,6 +24,19 @@
 
 ## Contents
 
+#### 22/1/25 소켓/HTTP통신 실습을 위한 로컬서버 세팅, 알고리즘 문제풀이
+
+- 백엔드 연습
+
+  - [한번에 끝내는 U buntu 웹서버세팅 (우분투 서버세팅) – Lael's World](https://blog.lael.be/post/73)
+
+- 알골 문제풀이
+
+  - [SW Expert Academy 13218. 조별과제](https://swexpertacademy.com/main/code/problem/problemDetail.do)
+
+  - [SW Expert Academy 13038. 교환학생](https://swexpertacademy.com/main/code/problem/problemDetail.do) 그리디문제인데 해법이 한번에 안떠오른다.
+
+
 #### 22/1/23 자바8 Optional, 날짜/시간처리 라이브러리 복습, 그리고 자기소개서.
 
 p.381, p.387 잘 이해가 안 간다.
@@ -101,7 +114,6 @@ public static void main(String... args[]){
 
 - SQL/알골
   - [(1) Not Boring Movies - LeetCode](https://leetcode.com/problems/not-boring-movies/submissions/)
-
 - 일일면접 : 팩토리 메서드 패턴은 무엇이고 언제 사용할 수 있나요?
   - 객체 생성을 서브클래스/메서드로 위임하는 것으로, 상황에 맞춰 객체를 다르게 생성해야 할 때 사용할 수 있다. 추상 팩토리 패턴은, 팩토리 메서드를 별도 인터페이스에서 정의해두고 그 인터페이스를 구현한 클래스를 사용하는 것이다. 예시 : `List<String> list = ListFactory.of(array); `, `List<String> list2 = ListFactory.of(jsonString);` (참고: [디자인패턴:팩토리 패턴(Factory Pattern) – friday's blog (fun25.co.kr)](http://friday.fun25.co.kr/blog/?p=280))
 
@@ -110,7 +122,6 @@ public static void main(String... args[]){
 안드로이드 액티비태 생애주기, LogCat
 
 - SQL/알골
-
   - [(1) Human Traffic of Stadium - LeetCode](https://leetcode.com/problems/human-traffic-of-stadium/submissions/)
 - [211230코테](####21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.) 3번문제 풀이, 피라미드를 배열에 담아 탐색, 코드는 167줄
 
@@ -173,15 +184,10 @@ of 메서드로 작은 컬렉션을 보다 엄밀한 의미의 '불변객체'로
   - LRU 알고리즘은 가장 오래 사용되지 않은 페이지를 교체
   - 외부단편화는 여유공간 흩어진것, 내부단편화는 더 크게 박싱된것
   - 고정분할-페이징, 다중분할-세그멘테이션
-
 - 네트워크
-
   - TCP는 신뢰성을 보장하는 연결형, UDP는 부하가 적은 비연결형
-
   - GET은 URL/헤더로, POST는 바디에 데이터를 포함
-
   - OSI 7계층은 물/데/네/전/세/표/응
-
   - 세션은 서버측에서, 쿠키는 웹브라우저에서 유지하는 데이터
 
 #### 21/12/28 Java-Json, HttpConnection 라이브러리 사용연습
@@ -235,15 +241,10 @@ SET 변수, WITH RECURSIVE, GROUP BY, 문법/실행순서, DATE_FORMAT, 컬럼/�
 #### 21/12/17 자바 스트림에서 다양한 리듀스 연산을 수행할 수 있다. 프로그래머스 SQL 고득점 Kit를 완주했다!
 
 - 자바 스트림 누적자 리듀싱 연산
-
   - 이미 정의된 리듀싱 : counting 등
-
   - 범용 리듀싱 : reducing
-
   - 그룹핑 : groupingBy
-
   - 누적자 : collect
-
 - 프로그래머스 SQL Kit 완주!
 
 #### 21/12/16 자바 컬렉션 객체에 스트림을 사용해 DB 쿼리처럼 다양한 작업을 할 수 있다.
