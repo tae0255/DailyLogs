@@ -10,8 +10,8 @@
 
 - 알고리즘/SQL(문법위주) 문제풀이
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 12 / 21 챕터
-- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
-- Java/SpringBoot (~2월初) [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 1 / 7 섹션
+- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의 :turtle::turtle::turtle:
+- Java/SpringBoot (~2월初) [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 3 / 7 섹션
 
 #### :fist_oncoming: hold
 
@@ -23,6 +23,14 @@
 - CS지식 구술평가 대비(네트워크/운영체제)
 
 ## Contents
+
+#### 22/1/28 JPA 도메인 객체를 생성하고 연관관계 메서드를 만들어봄.
+
+연관관계 매핑이란, 객체지향 프로그래밍과 관계형 데이터베이스 사이의 패러다임 불일치를 해소하기 위한 것이다. 연관관계의 주인이라 함은, 서로를 참조하는 두 객체 중 테이블 레코드를 저장, 수정, 삭제할 권할을 가진 객체를 말한다. 단, 테이블 레코드는 제어 권한을 가진 쪽에서만 수정하되, 객체 사이의 데이터는 동기화해주어야 한다.
+
+연관된 객체를 불필요하게 불러오는 일이 없도록 실무에서는 '지연로딩'을 사용해야 한다.
+
+JPA 영속성 컨텍스트란 애플리케이션과 데이터베이스 사이에서 객체를 보관하는 가상의 데이터베이스이다. '영속' 상태라 함은 엔티티 매니저로 객체를 영속성 컨텍스트에 저장한 것이고, '비영속'이란 객체가 생성되고 아직 영속석 컨텍스트에 저장하지 않은 경우이다.
 
 #### 22/1/27 산타파이브 팀 세미나, 뷰/스프링 스터디에 참석. JPA 강의는 한 바퀴 듣고나면 꼭 기본편을 들어야겠다고 생각.
 
