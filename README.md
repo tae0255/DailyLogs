@@ -8,10 +8,11 @@
 
 #### :runner: on-going
 
-- 알고리즘/SQL(문법위주) 문제풀이
-- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 12 / 21 챕터
+- 알고리즘 [solved.ac - pty115](https://solved.ac/profile/pty115) 15 / 100 골드이상 :turtle:
+- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 5 / 100 Medium이상
+- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 12 / 21 챕터 :sleepy:
 - Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의 :turtle::turtle::turtle:
-- Java/SpringBoot (~2월初) [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 3 / 7 섹션
+- Java/SpringBoot (~2월初) [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 3 / 7 섹션 :turtle:
 
 #### :fist_oncoming: hold
 
@@ -23,6 +24,10 @@
 - CS지식 구술평가 대비(네트워크/운영체제)
 
 ## Contents
+
+#### 22/1/31 HackerRank SQL문제풀이했다.
+
+`case 칼럼명 when 값`으로 쓸 수도 있고, `case 조건식`도 된다. `case/when`으로 칼럼값을 기준으로 세로로 쪼개고 `min/group by`로 합칠 수 있다. 마법같은 SQL!
 
 #### 22/1/28 JPA 도메인 객체를 생성하고 연관관계 메서드를 만들어봄.
 
