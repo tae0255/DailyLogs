@@ -8,8 +8,8 @@
 
 #### :runner: on-going
 
-- 알고리즘 [solved.ac - pty115](https://solved.ac/profile/pty115) 15 / 100 골드이상 :turtle:
-- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 11 / 100 Medium이상
+- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 18 / 100 "골드티어가자!"
+- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 12 / 100 "SQLD따자!" 
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 12 / 21 챕터 :sleepy:
 - Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의 :turtle::turtle::turtle:
 - Java/SpringBoot (~2월初) [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 3 / 7 섹션 :turtle:
@@ -24,6 +24,30 @@
 - CS지식 구술평가 대비(네트워크/운영체제)
 
 ## Contents
+
+#### 222/2/3 백준 자바, 해커랭크 SQL 문제풀이 그리고 :coffee::coffee:
+
+- JAVA
+
+  - [18222번: 투에-모스 문자열 (acmicpc.net)](https://www.acmicpc.net/problem/18222)
+
+    - Math.pow는 double을 반환한다. Math.pow(2, 64)는 오버플로가 발생한다.
+    - 문자열 '인덱스'와 '순서'를 헷갈리면 안된다. 첫번째 문자의 인덱스는 0이다.
+
+  - [1197번: 최소 스패닝 트리 (acmicpc.net)](https://www.acmicpc.net/problem/1197)
+
+    - union `if(root of a != root of b) a.root = b;` 
+    - find `while(parent[a]==a) a=parent[parent[a]]; `
+
+  - [11062번: 카드 게임 (acmicpc.net)](https://www.acmicpc.net/problem/11062) 
+
+    ```java
+    dp[i][j] = max(card[i]+dp[i+1][j], card[j]+dp[i][j-1]);
+    dp[i][j] = min(dp[i+1][j], dp[i][j-1]);
+    ```
+
+- MYSQL
+  - [Challenges | HackerRank](https://www.hackerrank.com/challenges/challenges/problem?isFullScreen=true) 반복되는 쿼리를 with으로 임시테이블로 만들어 사용
 
 #### 22/2/2 백준 자바, 해커랭크 SQL 문제풀이했다. 그리고 자기소개서.. 자기소개서.. 자기소개서..
 
