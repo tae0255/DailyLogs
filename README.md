@@ -25,7 +25,31 @@
 
 ## Contents
 
-#### 222/2/3 백준 자바, 해커랭크 SQL 문제풀이 그리고 :coffee::coffee:
+#### 22/2/4 백준 자바, 해커랭크 SQL 문제풀이 그리고 자바/SQL 헷갈렸던 내용 전체적으로 리뷰.
+
+모르는 걸 틀리면 그런가보다 할텐데, 아는걸 틀리면 너무 억울할 것 같다. 그동안 JAVA/SQL 헷갈렸던 내용을 정리해서 리뷰했다. 늘 그렇듯, 최고가 아니라도 주어진 상황에서 최선의 결과를 얻자!
+
+[MYSQL 코딩테스트 대비 (velog.io)](https://velog.io/@tae0y/MYSQL-코딩테스트-대비)
+
+[JAVA 코딩테스트 대비 (velog.io)](https://velog.io/@tae0y/JAVA-코딩테스트-대비)
+
+- JAVA
+
+  - [11868번: 님 게임 2 (acmicpc.net)](https://www.acmicpc.net/problem/11868) : 돌게임부터 깨고 다시오자
+
+- MYSQL
+
+  - [Contest Leaderboard | HackerRank](https://www.hackerrank.com/challenges/contest-leaderboard/problem?isFullScreen=true)
+
+  - [SQL Project Planning | HackerRank](https://www.hackerrank.com/challenges/sql-projects/problem?isFullScreen=true) : 다음코드는 a와 b의 모든 조합을 출력한다.
+
+    ```mysql
+    select col1, col2
+    from (select col1 from table) a,
+         (select col2 from table) b
+    ```
+
+#### 22/2/3 백준 자바, 해커랭크 SQL 문제풀이 그리고 :coffee::coffee:
 
 - JAVA
 
