@@ -8,9 +8,9 @@
 
 #### :runner: on-going
 
-- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 18 / 100 **"코테마스터!"**
-- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 12 / 100 **"포트폴리오 프로젝트에서 쓸 쿼리작성!"** 
-- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 12 / 21 챕터
+- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)
+- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"포트폴리오 프로젝트에서 쓸 쿼리작성!"** 
+- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 14 / 21 챕터
 - Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의 :turtle::turtle::turtle:
 - Java/SpringBoot (~2월初) [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 5 / 7 섹션
 
@@ -24,6 +24,45 @@
 - CS지식 구술평가 대비(네트워크/운영체제)
 
 ## Contents
+
+#### 22/2/6 모던자바, 뷰/스프링, SQL, 알골 문제풀이를 진행했다.
+
+**모던자바인액션** : 자바는 인터페이스에 디폴트 메서드를 추가하면서 다중상속을 지원하게 되었다. 다이아몬드 문제를 피하기 위해서는 호출 우선순위 규칙을 정해두었다. 구현된 메서드 > 디폴트 메서드, 하위 인터페이스 > 상위 인터페이스. 그래도 안되면 `인터페이스.super.메서드명`으로 명시적 호출 또는 오버라이드. 그리고 모듈 시스템을 추가하여 코드 공개 수준을 컴파일 시점에 정밀하게 조정할 수 있게 되었다.
+
+모던자바가 끝나면 이펙티브자바를 읽어보고, 자바17의 새로운 기능들도 더 배워보고 싶다. 코딩테스트를 준비하며 이전에 자바 정렬 메서드 사용법 정리한 글을 읽어보았는데, 스트림과 람다를 사용해 정렬하는 내용이 그제서야 이해가 되었다. 그리고 뷰/스프링 스터디에서 자바스크립트 람다식을 보았을 때도 코드를 잘 이해할 수 있었다. 몰랐던 것들이 점점 아는 것으로 바뀌어간다.
+
+**뷰/스프링 스터디** :  maven2 이후로는 compile/provided/runtime 등 시점에 따라 의존성 주입을 제어할 수 있다. npm ci 명령어를 사용하면 package-lock.json을 우선하여 패키지를 설치하며, package.json과 충돌할 경우 오류를 내고 중단된다.
+
+- SQL [Placements | HackerRank](https://www.hackerrank.com/challenges/placements/problem?isFullScreen=true)
+
+  - 오라클문법 다중조인
+
+    ```sql
+    select x.컬럼이름A, 
+           y.컬럼이름B,
+           z.컬럼이름C, ...
+    from 테이블이름X x, 테이블이름Y y, 테이블이름Z z, ...
+    where x.컬럼이름M=y.컬럼이름N
+      and y.컬럼이름O=z.컬럼이름Q;
+    ```
+
+  - ANSI문법 다중조인
+
+    ```sql
+    select x.컬럼이름A, 
+           y.컬럼이름B,
+           z.컬럼이름C, ...
+    from 테이블이름X x join 테이블이름Y y
+                        on x.컬럼이름M=y.컬럼이름N
+                      join 테이블이름Z z
+                        on y.컬럼이름O=z.컬럼이름Q;
+    ```
+
+- JAVA [15686번: 치킨 배달 (acmicpc.net)](https://www.acmicpc.net/problem/15686)
+
+  - n C m (n은 13보다 작거나 같다) -> `bruteforce(pos+1, true, status); bruteforce(pos+1, false, status);`
+  - 특정 원소를 제외하고 반복적으로 최솟값 구하기 : 정렬해서 여러 개를 구하는 거라면 PriorityQue로 하는 것이 좋다. qsort도 최악의 경우에는 O(n^2)이지만 힙정렬은 O(nlogn)에 끝나기 때문이다. 그러나 이번 문제는 최솟값 하나만 구하는 것이어서 Math.min으로 O(n) 안에 구했다.
+
 
 #### 22/2/5 코딩테스트 결과는 지금으로서는 최선의 결과였다. 방향성은 옳으니 될때까지 계속한다. 뷰/스프링 스터디 참여, 스프링 인터넷 강의 수강하면서 배우는 게 많다.
 
@@ -281,6 +320,10 @@ of 메서드로 작은 컬렉션을 보다 엄밀한 의미의 '불변객체'로
 - SQL/알골
   - [(1) Customers Who Never Order - LeetCode](https://leetcode.com/problems/customers-who-never-order/submissions/)
   - [211230코테](####21/12/30 면접대비 MYSQL 리뷰, 코딩테스트 응시했으나 한 문제도 못 풀었다.) 2번문제 리뷰 : 규칙체크 - 업데이트 - 종료조건검사 - 재귀호출
+
+### 2021
+
+개발자로 진로를 굳힘. 전역을 함. 라이브러리/프레임워크 사용경험이 필요하다. 코딩부트캠프, 서비스회사, 스타트업 위주로 취준.
 
 #### 21/12/31 병렬처리가 꼭 순차처리보다 빠른 것만은 아니다. SQL/알골 문제도 풀었다.
 
