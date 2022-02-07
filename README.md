@@ -8,7 +8,7 @@
 
 #### :runner: on-going
 
-- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&algo=102)
+- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
 - SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"포트폴리오 프로젝트에서 쓸 쿼리작성!"** 
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 14 / 21 챕터
 - Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의 :turtle::turtle::turtle:
@@ -24,6 +24,10 @@
 - CS지식 구술평가 대비(네트워크/운영체제)
 
 ## Contents
+
+#### 22/2/7 알골 문제풀이. 구현 문제는 규칙을 이해하는 게 절반이다.
+
+- JAVA [14503번: 로봇 청소기 (acmicpc.net)](https://www.acmicpc.net/problem/14503) 헤딩
 
 #### 22/2/6 모던자바, 뷰/스프링, SQL, 알골 문제풀이를 진행했다.
 
