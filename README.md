@@ -2,7 +2,7 @@
 
 ![](비모.gif)
 
-*done is better than perfect, 初志貫徹*
+*천리길도 한걸음부터, 初志貫徹, done is better than perfect*
 
 그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리합니다. 충분히 이해한 내용, 나누고 싶은 내용은 [velog](https://velog.io/@tae0y)에 올리고 있습니다.
 
@@ -11,19 +11,33 @@
 - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
 - SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"포트폴리오 프로젝트에서 쓸 쿼리작성!"** 
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 14 / 21 챕터
-- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의 :turtle::turtle::turtle:
-- Java/SpringBoot (~2월初) [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 5 / 7 섹션
+- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
 
 #### :fist_oncoming: hold
 
 - 프로그래머스 과제평가 연습문제 풀이
 - 포트폴리오를 위한 토이프로젝트
+- Android Jetpack
 
 ####  :man_dancing: well-done
 
 - CS지식 구술평가 대비(네트워크/운영체제)
+- SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 
 ## Contents
+
+#### 22/2/8 김영한님 JPA활용1 강의가 막을 내렸다. 어제 못다푼 알골문제를 해결했다.
+
+**김영한 JPA활용1** : 더 고민해볼 주제들이 생겼다. 시간을 두고 알아보자. 완강! 잘했다! 준영속 객체를 `merge`로 병합하는 대신, repository에서 새로 영속성 객체를 가져와 변경감지를 통해 수정하는 것이 안전하다. `merge`로 병합하면 값을 설정하지 않은 멤버가 null로 바뀔 위험이 있다. 객체 변경을 `@Setter`로 모두 열어버리면 유지보수가 어려우니 `createObject()`같은 생성 메서드를 사용하는 것이 좋다. 다시말해 팩토리 패턴을 사용하라는 것.
+
+- 더 알아볼 것들
+  - intelliJ 단축키 : 최근 사용한 파일목록, 선택한 영역을 템플릿으로 만들기, 테스트 생성, 테스트/원래코드간 전환, 메서드 정리, 에디터에서 커서 다중선택, 선택한 위치의 문자 대문자로 만들기 등 유용한 기능이 정말 많다.
+  - JPA 동적쿼리 : JPA CRITERIA, Query DSL는 어떻게 사용하는가?
+  - DTO란 무엇인가?
+
+**코틀린/안드로이드** : ViewModel과 LiveData를 사용해서 데이터를 비동기로 처리할 수 있다.
+
+- JAVA [14503번: 로봇 청소기 (acmicpc.net) ](https://www.acmicpc.net/problem/14503) 조건을 잘못 이해했다. 최고의 디버깅 방법은 세수하고 한숨 푹자고 일어나서 멀쩡한 정신으로 다시 보는 것..
 
 #### 22/2/7 알골 문제풀이. 구현 문제는 규칙을 이해하는 게 절반이다.
 
