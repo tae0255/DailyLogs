@@ -26,6 +26,23 @@
 
 ## Contents
 
+#### 22/2/11 뷰/스프링 프로젝트 게시판 만들기 헤딩3
+
+뷰 튜토리얼을 봄.
+
+```
+export/import
+vue-router
+data/methods/lifeCycle hook/computed/watch
+template/div
+v-model
+v-value
+v-on
+v-if
+v-show
+v-for
+```
+
 #### 22/2/10 뷰/스프링 프로젝트 게시판 만들기 헤딩2
 
 게시글 등록후, 등록한 게시글을 조회하는 로직이 마음에 들지 않는다.
