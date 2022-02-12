@@ -9,15 +9,18 @@
 #### :runner: on-going
 
 - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
-- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"포트폴리오 프로젝트에서 쓸 쿼리작성!"** 
+- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"실전쿼리!"** 
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 14 / 21 챕터
-- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
+- 토이프로젝트: vue/spring-boot/mariadb
+  - 기존 api구조를 유지하고 vue로 프론트만 만들기
+  - 테스트 db에 다양한 상황을 가정해 서버측 테스트하기
+
 
 #### :fist_oncoming: hold
 
 - 프로그래머스 과제평가 연습문제 풀이
-- 포트폴리오를 위한 토이프로젝트
-- Android Jetpack
+- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
+- Android Jetpack : Compose(선언형 UI 라이브러리) 등
 
 ####  :man_dancing: well-done
 
@@ -25,6 +28,34 @@
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 
 ## Contents
+
+### 22/2/12 
+
+**뷰/스프링 프로젝트 Q&A게시판 만들기 리뷰**: mybatis에서 insert한 값을 매핑해서 받아올 수 있다. 등록한 게시글 일련번호를 새로운 쿼리로 조회하거나 게시판 max(글번호)와 같이 구현할 필요가 없다. checkbox를 체크하지 않으면 null인 것은 맞지만, vue 데이터 바인딩에서 디폴트 값을 정해줄 수 있기에 새로 분기를 세우고 초기화해줄 필요가 없다. 코드리뷰 왕사랑!
+
+**뷰/웹 기본개념**: DOM이 수정될 때마다 브라우저는 전체 DOM을 새로 렌더링한다. 성능저하 방지를 위해 실제 DOM 접근은 지양해야 한다. 가상 DOM은 변경된 부분만 새로 렌더링한다. 다만, 일부 엘리먼트의 경우 접근하는 것만으로 전체 DOM이 새로 렌더링 되는 경우가 있으니 유의바람.
+
+JS는 변수/함수 호이스팅을 지원한다. 선언시 메모리 공간을 먼저 할당해주고, 초기화할 때 값을 채워넣는다. 그래서 함수를 정의하기 전에 호출할 수 있고, 변수를 초기화하기 전에 접근할 수 있다. 다만 var는 undefined로 미리 초기화되어 있으나 const/let은 메모리공간만 할당되므로 초기화전 접근하면 에러가 난다.
+
+스프링의 제어의 역전이란, 전에는 개발자가 객체 의존관계 등을 모두 제어해줬는데 이제는 서블릿 등 컨테이너에서 대신 해준다는 뜻이다. 의존관계를 설정하는 방법은 의존성 검색과 주입 두 가지 방법이 있다. 의존성 검색은 빈에서 필요한 객체를 찾아 매핑하는 경우고, 의존성 주입은 설정파일 등에 필요한 객체를 미리 정의해두면 자동으로 주입해서 사용하는 것이다. 객체 생성시점에 주입하는 생성자 방식, 멤버세터 호출시 주입하는 세터 방식 두가지로 나뉜다.
+
+컴포넌트는 vue 인스턴스에 지정해 전역 컴포넌트로 만들어 호출하는 방식, vue 파일에 지역 컴포넌트로 만들어 호출하는 방식이 있다. 부모에서 자식으로는 props를 내려 데이터를 보내고, 자식은 부모에게 emit으로 이벤트를 올려 데이터를 보낸다. 같은 레벨 컴포넌트는 공통부모로 데이터를 보내 다시 받는 과정이 필요하다. 이벤트 버스를 사용해 지정된 컴포넌트끼리 데이터를 주고받을 수 있다. 이때 의존관계와 상태를 추적하기 위해 vuex라는 유용한 라이브러리도 사용한다.
+
+**모던자바** 
+
+
+
+
+
+
+
+
+
+
+
+
+
+오늘은 SQL, 내일은 알골
 
 #### 22/2/11 뷰/스프링 프로젝트 게시판 만들기 헤딩3
 
