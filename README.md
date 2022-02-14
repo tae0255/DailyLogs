@@ -2,7 +2,7 @@
 
 ![](비모.gif)
 
-*천리길도 한걸음부터, 初志貫徹, done is better than perfect*
+*初志貫徹, done is better than perfect, 걱정을해서 걱정이 없다면 걱정이 없겠네*
 
 그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리합니다. 충분히 이해한 내용, 나누고 싶은 내용은 [velog](https://velog.io/@tae0y)에 올리고 있습니다.
 
@@ -10,10 +10,13 @@
 
 - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
 - SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"실전쿼리!"** 
-- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 14 / 21 챕터
+  - SQLD ~ 3.12.(토) 0 / 11
+
+- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 16 / 21 챕터
+  - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
 - 토이프로젝트: vue/spring-boot/mariadb
-  - 기존 api구조를 유지하고 vue로 프론트만 만들기
-  - 테스트 db에 다양한 상황을 가정해 서버측 테스트하기
+  - 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
+  - 테스트 db에 다양한 상황을 가정해 서버측 테스트하기 ~ 2.25.(금)
 
 
 #### :fist_oncoming: hold
@@ -28,6 +31,20 @@
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 
 ## Contents
+
+#### 22/2/14 CompletableFuture 사용법을 훑어보고, REST API 사용방법을 연습해보았다.
+
+**모던자바** CompletableFuture는 Future의 구현클래스로서, 두 개 이상의 Future를 블로킹 없이 연결하여 수행할 수 있다. andThen, thenBoth 등 메서드를 사용한다. 리액티브 프로그래밍은 어렵구나, 복잡하게 보지말고 CompletableFuture의 사용법을 배운다고 생각하자.
+
+오늘의 알골 : 2022 카카오블라인드 2차과제 헤딩 / FAIL, 그러나 HttpURLConnection에서 헤더/바디에 데이터 추가하는 방법, JSONArray 객체 순회하는 방법을 알 수 있었다. 정답이 웹에 나와있는 엘리베이터 문제를 복기해보고 다시 도전해보자. 
+
+지금처럼 공부해왔더라면 더 많이 성장할 수 있었을텐데 아쉬움이 늘 남는다. 그러나, 그럼에도 불구하고, 그렇기 때문에, 오늘은 오늘의 공부를 하는 수밖에 없다.
+
+#### 22/2/13 리액티브 프로그래밍이란
+
+**모던자바** 반응형 웹이란, 태블릿/폰/PC 등 사용자 환경에 따라 화면을 재구성하는 것이다. 반면 리액티브 프로그래밍이란, 런타임 환경이 변화에 대응하도록 전체 아키텍처가 설계된 프로그램이다. 리액티브 시스템을 세 가지 속성을 지켜야 하는데, 첫째로 큰 작업을 처리하느라 간단한 질의의 응답을 지연하지 않고 실시간으로 입력에 반응해야 한다. 둘째로 한 컴포넌트 실패로 전체 시스템이 실패하지 않아야 한다. 셋째로 시스템이 작업 부하에 맞게 작업을 효율적으로 처리해야 한다.
+
+오늘의 궁금증 : CompletableFuture의 complete는 용도가 뭘까? future.get은 결과를 무한정 기다린다. completable.complete으로 결과가 나오면 completable.get을 호출하여 안 기다려도 된다. 맞나?
 
 #### 22/2/12 뷰는 간단하게 배우고 멋진 화면을 만들 수가 있구나
 
