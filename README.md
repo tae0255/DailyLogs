@@ -32,6 +32,10 @@
 
 ## Contents
 
+#### 22/2/15 뷰/스프링 게시판 만들기 헤딩
+
+vue router와 컴포넌트를 사용해서 SPA를 만들 수 있다. router-link는 화면에 a 태그로 변환되어 표시되고, router-view는 갱신된 URL에 해당하는 화면을 보여준다. 여러 컴포넌트를 한 페이지에 불러올 수 있고, 여러 컴포넌트를 중첩해서 표시할 수도 있다. **/** axios는 promise 기반으로 비동기 http 통신을 지원한다. resolve/then/catch 메서드로 작업완료시/성공후/에러발생시 처리할 작업을 지정해줄 수 있다. **/** 공공데이터포털은 CORS 때문에 바로 접근해 데이터를 가져오지 못한다([내가 찾은 CORS Error의 올바른 해결법](https://coding-groot.tistory.com/91)) **/** 조합형 글자는 v-model에서 엔터, 스페이스바를 눌러야 데이터가 동기화된다. 그래서 마지막 글자가 잘릴 수 있다. v-on에서 input 이벤트를 감지해 데이터를 바인딩해주면 해결할 수 있다. **/** vue 프로젝트에서 app.vue는 최상위 컴포넌트이고, main.js는 가장 먼저 실행되는 js파일이다.
+
 #### 22/2/14 CompletableFuture 사용법을 훑어보고, REST API 사용방법을 연습해보았다.
 
 **모던자바** CompletableFuture는 Future의 구현클래스로서, 두 개 이상의 Future를 블로킹 없이 연결하여 수행할 수 있다. andThen, thenBoth 등 메서드를 사용한다. 리액티브 프로그래밍은 어렵구나, 복잡하게 보지말고 CompletableFuture의 사용법을 배운다고 생각하자.
