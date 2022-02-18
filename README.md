@@ -10,20 +10,18 @@
 
 - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
 - SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"실전쿼리!"** 
-  - SQLD ~ 3.12.(토) 0 / 11
-
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 16 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
 - 토이프로젝트: vue/spring-boot/mariadb
-  - 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
-  - 테스트 db에 다양한 상황을 가정해 서버측 테스트하기 ~ 2.25.(금)
+  - [x] 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
+  - [ ] 로컬 db에서 사용자 인증/권한 기능 테스트해보기 ~ 2.25.(금)
 
 
 #### :fist_oncoming: hold
 
 - 프로그래머스 과제평가 연습문제 풀이
-- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
 - Android Jetpack : Compose(선언형 UI 라이브러리) 등
+- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
 
 ####  :man_dancing: well-done
 
@@ -31,6 +29,12 @@
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 
 ## Contents
+
+#### 22/2/18 뷰/스프링 게시판 만들기 헤딩4
+
+controller, service, mapper, mybatis sql을 사용해서 사용자 및 게시판 등록/조회/삭제/수정은 이제 가능하다. 그런데 mybatis로 join 연산하는 방법은 잘 모르겠고, 특히 사용자 인증/권한 관리 부분은 정말 잘 모르겠다. 코드만 보기보다 SpringSecurity 클래스를 공부해봐야겠다.
+
+문서 없이 레거시 코드를 고친다는게 얼마나 어려운 일인지.. 알게된 하루..
 
 #### 22/2/17 뷰/스프링 게시판 만들기 헤딩3
 
