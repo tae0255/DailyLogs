@@ -15,6 +15,7 @@
 - 토이프로젝트: vue/spring-boot/mariadb
   - [x] 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
   - [ ] 로컬 db에서 사용자 인증/권한 기능 테스트해보기 ~ 2.25.(금)
+  - [ ] 커스텀 컴포넌트 적용 : 강의시간표, 카드목록, 크로노토그래프
 
 
 #### :fist_oncoming: hold
@@ -29,6 +30,8 @@
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 
 ## Contents
+
+#### 22/2/19 코테와 휴식:coffee:
 
 #### 22/2/18 뷰/스프링 게시판 만들기 헤딩4
 
