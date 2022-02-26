@@ -4,13 +4,16 @@
 
 *初志貫徹, done is better than perfect, 걱정을해서 걱정이 없다면 걱정이 없겠네*
 
-그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리합니다. 충분히 이해한 내용, 나누고 싶은 내용은 [velog](https://velog.io/@tae0y)에 올리고 있습니다.
+그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리하고, 같이 나누고 싶은 내용은 [velog](https://velog.io/@tae0y)에 올립니다.
 
-#### :runner: on-going
+#### :repeat: daily
 
 - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
 - SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"실전쿼리!"** 
-- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 16 / 21 챕터
+
+#### :runner: on-going
+
+- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 19 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
 - 토이프로젝트: vue/spring-boot/mariadb
   - [x] 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
@@ -29,7 +32,17 @@
 - CS지식 구술평가 대비(네트워크/운영체제)
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 
+
+
 ## Contents
+
+#### 22/2/26 모던자바 함수형 패러다임 개념공부, 로그인 기능 코드리뷰
+
+모던자바인액션 17, 18장을 읽고, 19장 내용을 정리해서 발표 스크립트를 작성했다. 사 년 전 자바8이 처음 발표되었을 때, 람다를 소개하는 글을 몇 번 읽은 적이 있었다. 도무지 이해가 가지 않고, 무엇보다도 어디에 쓰는지 알 수 없었다. 이 책을 읽으면서 어렴풋이 개념이 잡혔다. 람다는 `()->{}`와 같이 함수를 간략히 표현한 것이다. 함수형 패러다임을 적용하면, 부수효과가 없고 참조투명한 함수를 만들 수 있어서, 테스트하기 쉽고 운영중 예기치 않은 오류를 피할 수 있다.
+
+스터디 모임에서 이번주 동안 만든 로그인 기능을 리뷰했다. JWT 토큰에 사용자 아이디와 권한 정보를 함께 넣어서 발급한 부분을 지적받았다. 사용자 아이디만 있다면, 토큰이 유효한지 확인하고 데이터베이스에서 해당 사용자의 권한을 확인해 적용하면 된다는 지적이었다. 클레임을 어떻게 암호화할지 고민했는데 그편이 보안상 더 안전할 것 같다.
+
+커스텀필터를 적용한뒤 CORS 예외 규칙이 적용되지 않는 문제는 여전히 해결하지 못했다. 어제 구현한대로 REST컨트롤러에서 login을 처리해주는 방식으로 로직을 바꾸었다.
 
 #### 22/2/25 뷰/스프링 게시판 로그인 헤딩4
 
@@ -37,9 +50,7 @@
 
 응답헤더에 Authorization에 담겨 반환하는데, JS에서 응답헤더를 읽을 수 없으므로 응답바디에 추가해서 보냈다. 
 
-- 남은과제들
-  - 토큰 내부정보 암호화, CSRF토큰, HttpOnly, Referrer체크
-  - 토큰을 이용해서 게시글 수정/삭제 권한부여
+- 남은과제들: 토큰 내부정보 암호화, CSRF토큰, HttpOnly, Referrer체크, 토큰을 이용해서 게시글 수정/삭제 권한부여
 
 #### 22/2/24 뷰/스프링 게시판 로그인 헤딩3
 
