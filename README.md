@@ -8,17 +8,24 @@
 
 #### :repeat: daily
 
-- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 **"코테마스터!"** [구현의왕](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
-- SQL 문제풀이 [HackerRank](https://www.hackerrank.com/) 13 / 100 **"실전쿼리!"** 
+- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 
+  - [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
+- SQL 문제풀이 13 / 100
+  -  [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
+
 
 #### :runner: on-going
 
-- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 19 / 21 챕터
+- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
+  - 자바11 이후의 변화
+- 토이프로젝트: kotlin/android
+  - REST통신, 로컬DB CRUD, 커스텀뷰 적용
+
 - 토이프로젝트: vue/spring-boot/mariadb
   - [x] 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
   - [x] 로컬 db에서 사용자 인증/권한 기능 테스트해보기 ~ 2.25.(금)
-  - [ ] 커스텀 컴포넌트 적용 : 강의시간표, 카드목록, 크로노토그래프
+  - [ ] 커스텀 컴포넌트 적용하고 게시판/로그인기능 통합 ~ 2.29.(화)
 
 
 #### :fist_oncoming: hold
@@ -35,6 +42,12 @@
 
 
 ## Contents
+
+#### 22/2/27 모던자바 스터디 끝! :book:
+
+모던자바인액션 20, 21장을 읽었다. 모던자바 스터디는 오늘부로 끝이 났다. 람다가 무엇인지, 그리고 어디에 사용할 수 있는지 알 수 있었던 것이 가장 큰 수확이다. 다만 모던자바인액션은 거의 람다 만능주의라고 불러도 될 정도로 모든 코드를 람다를 사용해 추상화했는데, 코드가 배로 많아지고 또 복잡해져서 실무에서 람다를 사용하는 것이 어떤 이점이 있는지는 직접 부딪쳐 보면서 배우는 수밖에 없을 것 같다.
+
+그동안 배운 내용을 정리해서 깃헙에 올려보자. 그리고 어떤 공부가 더 필요할지 고민해봐야겠다. 디자인패턴이나 프로젝트 아키텍처, 이펙티브자바, 또는 DDD/TDD/BDD 등 관심이 간다.
 
 #### 22/2/26 모던자바 함수형 패러다임 개념공부, 로그인 기능 코드리뷰
 
