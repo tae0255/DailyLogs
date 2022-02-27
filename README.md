@@ -7,35 +7,28 @@
 그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리하고, 같이 나누고 싶은 내용은 [velog](https://velog.io/@tae0y)에 올립니다.
 
 #### :repeat: daily
-
 - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 
   - [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
 - SQL 문제풀이 13 / 100
   -  [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
 
-
 #### :runner: on-going
-
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
   - 자바11 이후의 변화
 - 토이프로젝트: kotlin/android
   - REST통신, 로컬DB CRUD, 커스텀뷰 적용
-
 - 토이프로젝트: vue/spring-boot/mariadb
   - [x] 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
   - [x] 로컬 db에서 사용자 인증/권한 기능 테스트해보기 ~ 2.25.(금)
   - [ ] 커스텀 컴포넌트 적용하고 게시판/로그인기능 통합 ~ 2.29.(화)
 
-
 #### :fist_oncoming: hold
-
 - 프로그래머스 과제평가 연습문제 풀이
 - Android Jetpack : Compose(선언형 UI 라이브러리) 등
 - Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
 
 ####  :man_dancing: well-done
-
 - CS지식 구술평가 대비(네트워크/운영체제)
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 
@@ -216,32 +209,27 @@ v-for
 **뷰/스프링 스터디** :  maven2 이후로는 compile/provided/runtime 등 시점에 따라 의존성 주입을 제어할 수 있다. npm ci 명령어를 사용하면 package-lock.json을 우선하여 패키지를 설치하며, package.json과 충돌할 경우 오류를 내고 중단된다.
 
 - SQL [Placements | HackerRank](https://www.hackerrank.com/challenges/placements/problem?isFullScreen=true)
-
-  - 오라클문법 다중조인
-
-    ```sql
-    select x.컬럼이름A, 
-           y.컬럼이름B,
-           z.컬럼이름C, ...
-    from 테이블이름X x, 테이블이름Y y, 테이블이름Z z, ...
-    where x.컬럼이름M=y.컬럼이름N
-      and y.컬럼이름O=z.컬럼이름Q;
-    ```
-
-  - ANSI문법 다중조인
-
-    ```sql
-    select x.컬럼이름A, 
-           y.컬럼이름B,
-           z.컬럼이름C, ...
-    from 테이블이름X x join 테이블이름Y y
-                        on x.컬럼이름M=y.컬럼이름N
-                      join 테이블이름Z z
-                        on y.컬럼이름O=z.컬럼이름Q;
-    ```
+```sql
+-- 오라클문법 다중조인
+select x.컬럼이름A, 
+       y.컬럼이름B,
+       z.컬럼이름C, ...
+from 테이블이름X x, 테이블이름Y y, 테이블이름Z z, ...
+where x.컬럼이름M=y.컬럼이름N
+  and y.컬럼이름O=z.컬럼이름Q;
+```
+```sql
+-- ANSI문법 다중조인
+select x.컬럼이름A, 
+       y.컬럼이름B,
+       z.컬럼이름C, ...
+from 테이블이름X x join 테이블이름Y y
+                    on x.컬럼이름M=y.컬럼이름N
+                  join 테이블이름Z z
+                    on y.컬럼이름O=z.컬럼이름Q;
+```
 
 - JAVA [15686번: 치킨 배달 (acmicpc.net)](https://www.acmicpc.net/problem/15686)
-
   - n C m (n은 13보다 작거나 같다) -> `bruteforce(pos+1, true, status); bruteforce(pos+1, false, status);`
   - 특정 원소를 제외하고 반복적으로 최솟값 구하기 : 정렬해서 여러 개를 구하는 거라면 PriorityQue로 하는 것이 좋다. qsort도 최악의 경우에는 O(n^2)이지만 힙정렬은 O(nlogn)에 끝나기 때문이다. 그러나 이번 문제는 최솟값 하나만 구하는 것이어서 Math.min으로 O(n) 안에 구했다.
 
@@ -272,48 +260,35 @@ v-for
 #### 22/2/4 백준 자바, 해커랭크 SQL 문제풀이 그리고 자바/SQL 헷갈렸던 내용 전체적으로 리뷰.
 
 모르는 걸 틀리면 그런가보다 할텐데, 아는걸 틀리면 너무 억울할 것 같다. 그동안 JAVA/SQL 헷갈렸던 내용을 정리해서 리뷰했다. 늘 그렇듯, 최고가 아니라도 주어진 상황에서 최선의 결과를 얻자!
-
 [MYSQL 코딩테스트 대비 (velog.io)](https://velog.io/@tae0y/MYSQL-코딩테스트-대비)
-
 [JAVA 코딩테스트 대비 (velog.io)](https://velog.io/@tae0y/JAVA-코딩테스트-대비)
 
 - JAVA
-
   - [11868번: 님 게임 2 (acmicpc.net)](https://www.acmicpc.net/problem/11868) : 돌게임부터 깨고 다시오자
-
 - MYSQL
-
   - [Contest Leaderboard | HackerRank](https://www.hackerrank.com/challenges/contest-leaderboard/problem?isFullScreen=true)
-
   - [SQL Project Planning | HackerRank](https://www.hackerrank.com/challenges/sql-projects/problem?isFullScreen=true) : 다음코드는 a와 b의 모든 조합을 출력한다.
 
-    ```mysql
-    select col1, col2
-    from (select col1 from table) a,
-         (select col2 from table) b
-    ```
+```mysql
+select col1, col2
+from (select col1 from table) a,
+     (select col2 from table) b
+```
 
 #### 22/2/3 백준 자바, 해커랭크 SQL 문제풀이 그리고 :coffee::coffee:
 
 - JAVA
-
   - [18222번: 투에-모스 문자열 (acmicpc.net)](https://www.acmicpc.net/problem/18222)
-
     - Math.pow는 double을 반환한다. Math.pow(2, 64)는 오버플로가 발생한다.
     - 문자열 '인덱스'와 '순서'를 헷갈리면 안된다. 첫번째 문자의 인덱스는 0이다.
-
   - [1197번: 최소 스패닝 트리 (acmicpc.net)](https://www.acmicpc.net/problem/1197)
-
     - union `if(root of a != root of b) a.root = b;` 
     - find `while(parent[a]==a) a=parent[parent[a]]; `
-
   - [11062번: 카드 게임 (acmicpc.net)](https://www.acmicpc.net/problem/11062) 
-
-    ```java
-    dp[i][j] = max(card[i]+dp[i+1][j], card[j]+dp[i][j-1]);
-    dp[i][j] = min(dp[i+1][j], dp[i][j-1]);
-    ```
-
+```java
+dp[i][j] = max(card[i]+dp[i+1][j], card[j]+dp[i][j-1]);
+dp[i][j] = min(dp[i+1][j], dp[i][j-1]);
+```
 - MYSQL
   - [Challenges | HackerRank](https://www.hackerrank.com/challenges/challenges/problem?isFullScreen=true) 반복되는 쿼리를 with으로 임시테이블로 만들어 사용
 
@@ -321,7 +296,6 @@ v-for
 
 - JAVA
   - [18222번: 투에-모스 문자열 (acmicpc.net)](https://www.acmicpc.net/problem/18222) 헤딩중
-
 - MYSQL
   - [Revising the Select Query II | HackerRank](https://www.hackerrank.com/challenges/revising-the-select-query-2/problem)
   - [Select All | HackerRank](https://www.hackerrank.com/challenges/select-all-sql/problem)
@@ -371,20 +345,14 @@ MySQL이 Oracle로 넘어가면서, MySQL과 호환되면서 라이센스가 더
 #### 22/1/25 소켓/HTTP통신 실습을 위한 로컬서버 세팅, 알고리즘 문제풀이
 
 - 백엔드 연습
-
-  - [한번에 끝내는 U buntu 웹서버세팅 (우분투 서버세팅) – Lael's World](https://blog.lael.be/post/73)
-
+  - [한번에 끝내는 U buntu 웹서버세팅 (우분투 서버세팅) – Lael World](https://blog.lael.be/post/73)
 - 알골 문제풀이
-
   - [SW Expert Academy 13218. 조별과제](https://swexpertacademy.com/main/code/problem/problemDetail.do)
-
   - [SW Expert Academy 13038. 교환학생](https://swexpertacademy.com/main/code/problem/problemDetail.do) 그리디문제인데 해법이 한번에 안떠오른다.
-
 
 #### 22/1/23 자바8 Optional, 날짜/시간처리 라이브러리 복습, 그리고 자기소개서.
 
 p.381, p.387 잘 이해가 안 간다.
-
 저는 엄격한 아버지와 자애로운 어머니께 ........
 
 #### 22/1/21 자바8의 날짜/시간처리 라이브러리를 복습했다.
@@ -411,7 +379,7 @@ NullSafe한 언어를 만드는 방법은 `?.`와 같이 네비게이션 연산�
 
 메서드 시그니처에서 점 세개는 'Variable Arguments' 또는 'varargs'라고 하는데, 0개 이상의 인수를 받는다는 뜻이다. 메서드 매개인수의 가장 마지막에만 사용할 수 있다.
 
-```
+```java
 public static void main(String... args[]){
     // method body
 }
@@ -480,7 +448,6 @@ public static void main(String... args[]){
     - 400 잘못된요청, 401 인증안됨, 403 권한없음, 404 찾을수 없음
   - 5xx(서버오류) 서버가 명백히 유효한 요청에 대해 충족을 실패했다.
     - 500 내부서버오류, 502 Bad Gateway, 503 서비스 사용불가, 504 게이트웨이 시간초과
-
 - SQL/알골
   - [(1) Big Countries - LeetCode](https://leetcode.com/problems/big-countries/)
   - [(1) Classes More Than 5 Students - LeetCode](https://leetcode.com/problems/classes-more-than-5-students/)
@@ -565,10 +532,8 @@ JPA 인터페이스를 어떻게 선언해야 하고, REST API는 어떻게 구�
 - ANSI SQL은 DBMS 종류에 제약을 받지 않는다.
   - [친절한 SQL 튜닝 - YES24](http://www.yes24.com/Product/Goods/61254539)(오라클DB)
   - [Real MySQL - YES24](http://www.yes24.com/Product/Goods/6960931)
-
 - [URI,URL,URN](https://github.com/CodingInterviewStudy/CrackingTheCodingInterview/wiki/7주차-2) : 이전에는 `naver.com/main.html`과 같이 웹사이트 리소스를 위치로(URL/URI) 불러오는 방식이었으나, 최근에는 Restful을 추구하며 `naver.com/main`으로 구분자를 통해(URI) 불러온다.
   - ![img](https://camo.githubusercontent.com/99a24e41700a0c2deeaf357291cfd916d518399454f72dca6e0b43ba35b149dc/68747470733a2f2f747661312e73696e61696d672e636e2f6c617267652f3030386933736b4e6779316776716d3938767471376a3630626a30366d30737630322e6a7067)
-
 - 페이지교체 알고리즘
   - LRU 가장 오랫동안 참조되지 않은 페이지를 교체
   - LFU 참조횟수가 가장 적은 페이지를 교체, 왜냐하면 초기에 집중적으로 참조한 페이지는 더 필요하지 않을 수 있으므로
