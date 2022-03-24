@@ -6,16 +6,21 @@
 
 그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리하고, 같이 나누고 싶은 내용은 [velog](https://velog.io/@tae0y)에 올립니다.
 
-#### :repeat: daily
-- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100 
-  - [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
-- SQL 문제풀이 13 / 100
-  -  [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
-
 #### :runner: on-going
+
+- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100,  [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
+- SQL 문제풀이 13 / 100, [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
+
 - Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
   - 자바11 이후의 변화
+- js, http/json, springBoot, mybatis, mssql
+
+#### :fist_oncoming: hold
+
+- 프로그래머스 과제평가 연습문제 풀이
+- Android Jetpack : Compose(선언형 UI 라이브러리) 등
+- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
 - 토이프로젝트: kotlin/android
   - REST통신, 로컬DB CRUD, 커스텀뷰 적용
 - 토이프로젝트: vue/spring-boot/mariadb
@@ -24,11 +29,6 @@
   - [ ] 커스텀 컴포넌트 적용하고 게시판/로그인기능 통합 ~ 3.4.(금)
 - 헤드퍼스트 디자인패턴 3 / 14 챕터
 
-#### :fist_oncoming: hold
-- 프로그래머스 과제평가 연습문제 풀이
-- Android Jetpack : Compose(선언형 UI 라이브러리) 등
-- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
-
 ####  :man_dancing: well-done
 - CS지식 구술평가 대비(네트워크/운영체제)
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
@@ -36,6 +36,20 @@
 
 
 ## Contents
+
+#### 22/3/24 스프링 어노테이션 정리
+
+스프링 네 가지 필수 어노테이션 repository, service, controller, autowired. 이 중에 repository와 service가 실상은 아무 기능이 없다는 점에 놀랐다.
+
+#### 22/3/23 맥에서 윈도우 연습서버 띄우기 헤딩, 결론: 불가
+
+m1에서는 아직까지는 공식적으로 vmware, virtualBox를 사용할 수 없다. 다만 vmware는 m1 프리뷰 버전이 22년 10월까지 무료로 지원된다. 그러나 해당 프리뷰 버전은 ms server를 지원하지 않는다.
+
+결론적으로 윈도우 연습서버를 띄우려면 클라우드 호스팅서버를 사용하거나(월 7천원 ~ 7만원까지 다양하다), 정년퇴임을 앞둔 윈도우 노트북을 예토전생시키는 수밖에 없다.
+
+#### 22/3/22 맥에서 윈도우 연습서버 띄우기 헤딩
+
+도커 데스크탑에서 ms sql 서버를 띄운 linux 컨테이너를 구동해보기. 여기서부터 고통의 굴레가 시작됐다. m1에서 해당 이미지를 지원하지 않아 도커와 이미지를 모두 지웠으나, 이후 도커를 재설치 했을 때 아예 도커도 구동되지 않는 문제가 있었다. StackOverflow에서 도커 완전삭제 명령어를 검색하여 해결. 
 
 #### 22/3/12 알고리즘 문제풀이
 
