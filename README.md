@@ -21,21 +21,22 @@
 - 프로그래머스 과제평가 연습문제 풀이
 - Android Jetpack : Compose(선언형 UI 라이브러리) 등
 - Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
-- 토이프로젝트: kotlin/android
-  - REST통신, 로컬DB CRUD, 커스텀뷰 적용
-- 토이프로젝트: vue/spring-boot/mariadb
-  - [x] 기존 api구조를 유지하고 vue로 프론트만 만들기 ~ 2.18.(금)
-  - [x] 로컬 db에서 사용자 인증/권한 기능 테스트해보기 ~ 2.25.(금)
-  - [ ] 커스텀 컴포넌트 적용하고 게시판/로그인기능 통합 ~ 3.4.(금)
+- 토이프로젝트: kotlin/android (REST통신, 로컬DB CRUD, 커스텀뷰)
 - 헤드퍼스트 디자인패턴 3 / 14 챕터
+- 포트폴리오 사이드프로젝트: 보안시각화, 링크관리, 시간표관리
 
 ####  :man_dancing: well-done
 - CS지식 구술평가 대비(네트워크/운영체제)
 - SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
+- 토이프로젝트: vue/spring-boot/mariadb
 
 
 
 ## Contents
+
+#### 22/3/28 다중 아우터 조인
+
+다른 테이블을 참조하는 칼럼이 여러 개 있을 때, 다중 아우터 조인으로 해당 테이블 값을 한 번에 가져올 수가 있다.
 
 #### 22/3/24 스프링 어노테이션 정리
 
