@@ -11,7 +11,7 @@
 - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100,  [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
 - SQL 문제풀이 13 / 100, [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
 
-- Java8, 11 (~2월末) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
+- Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
   - 자바11 이후의 변화
 - js, http/json, springBoot, mybatis, mssql
@@ -33,6 +33,12 @@
 
 
 ## Contents
+
+#### 22/3/29 저장 프로시저
+
+동적으로 쿼리를 작성하는 대신에 저장 프로시저를 매번 ALTER해서 사용한다면, 저장 프로시저를 사용하는 의미가 있는 걸까? 매번 실행계획도 새로 컴파일될텐데 말이다. 
+
+ANSI_NULLS, QUOTED_IDENTIFIER, BEGIN/END, CONVERT, WITH에 대해 정리했다. Read Committed, Read Uncommitted 등 격리수준에 대한 부분을 더 살펴봐야한다.
 
 #### 22/3/28 다중 아우터 조인
 
