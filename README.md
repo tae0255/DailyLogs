@@ -34,6 +34,10 @@
 
 ## Contents
 
+#### 22/4/3 조직도 재귀쿼리
+
+테이블이 ITEM_ID, PARENT_ID 쌍으로 구성되어 있을 때, CTE를 사용한 재귀쿼리로 조직도를 출력한다.
+
 #### 22/3/31 개발은 Bug와 Debug 사이의 Coding이다.
 
 Spring에 Mybatis를 물려 조회 기능을 구현했다. 그런데 자꾸만 `Mapped Statements collection does not contain value for` 오류가 났다. 신입이 버그 잡는 데 쩔쩔매고 있으니 내 위로 세 사람이 퇴근도 못하고 같이 머리를 맞대고 고민했다. 너무 감사하면서도 죄송스러웠다..
