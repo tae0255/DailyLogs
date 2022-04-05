@@ -14,6 +14,7 @@
 - Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
   - 자바11 이후의 변화
+- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 3 / 48 강의
 - js, http/json, springBoot, mybatis, mssql
 
 #### :fist_oncoming: hold
@@ -27,12 +28,26 @@
 
 ####  :man_dancing: well-done
 - CS지식 구술평가 대비(네트워크/운영체제)
-- SpringBoot/JPA [인프런|실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
+- SpringBoot/JPA [인프런|김영한,실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 - 토이프로젝트: vue/spring-boot/mariadb
 
 
 
 ## Contents
+
+#### 22/4/5 개발은 점진적으로
+
+- Spring MVC의 요청 처리흐름
+  - **Filter 처리**
+  - 사용자 요청을 DispatcherServlet이 받음
+  - 해당 URI를 Handlermapping에서 검색
+    - RequestMapping으로 구현한 API를 찾는데, RequestMappingHandlerAdapter가 모두 가지고 있음
+    - 원하는 Mapping을 찾은 경우, **Intercepter를 처리**
+    - **Argument Resolver 처리**
+    - Message Converter 처리
+
+  - Controller Method 호출
+
 
 #### 22/4/3 조직도 재귀쿼리
 
