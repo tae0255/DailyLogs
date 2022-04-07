@@ -14,7 +14,7 @@
 - Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
   - 자바11 이후의 변화
-- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 3 / 48 강의
+- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 10 / 48 강의
 - js, http/json, springBoot, mybatis, mssql
 
 #### :fist_oncoming: hold
@@ -35,7 +35,14 @@
 
 ## Contents
 
+#### 22/4/7 개발은 디테일하게
+
+개발표준과 코딩규칙을 지키면서 개발하자. 
+그런데 개발표준이랑 코딩규칙을 어디서보는거징.
+
 #### 22/4/5 개발은 점진적으로
+
+테스트 가능한 최소 기능을 먼저 개발하자.
 
 - Spring MVC의 요청 처리흐름
   - **Filter 처리**
@@ -45,15 +52,13 @@
     - 원하는 Mapping을 찾은 경우, **Intercepter를 처리**
     - **Argument Resolver 처리**
     - Message Converter 처리
-
   - Controller Method 호출
-
 
 #### 22/4/3 조직도 재귀쿼리
 
 테이블이 ITEM_ID, PARENT_ID 쌍으로 구성되어 있을 때, CTE를 사용한 재귀쿼리로 조직도를 출력한다.
 
-#### 22/3/31 개발은 Bug와 Debug 사이의 Coding이다.
+#### 22/3/31 개발은 BUG와 DEBUG 사이의 CODING이다.
 
 Spring에 Mybatis를 물려 조회 기능을 구현했다. 그런데 자꾸만 `Mapped Statements collection does not contain value for` 오류가 났다. 신입이 버그 잡는 데 쩔쩔매고 있으니 내 위로 세 사람이 퇴근도 못하고 같이 머리를 맞대고 고민했다. 너무 감사하면서도 죄송스러웠다..
 
