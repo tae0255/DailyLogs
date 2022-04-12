@@ -14,7 +14,7 @@
 - Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
   - 자바11 이후의 변화
-- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 10 / 48 강의
+- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 13 / 48 강의
 - js, http/json, springBoot, mybatis, mssql
 
 #### :fist_oncoming: hold
