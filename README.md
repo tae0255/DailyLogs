@@ -8,16 +8,18 @@
 
 #### :runner: on-going
 
-- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100,  [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
-- SQL 문제풀이 13 / 100, [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
+- ios/swift
+
+#### :fist_oncoming: hold
 
 - Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
   - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
   - 자바11 이후의 변화
-- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 13 / 48 강의
-- js, http/json, springBoot, mybatis, mssql
 
-#### :fist_oncoming: hold
+- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 40 / 48 강의
+
+- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100,  [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
+- SQL 문제풀이 13 / 100, [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
 
 - 프로그래머스 과제평가 연습문제 풀이
 - Android Jetpack : Compose(선언형 UI 라이브러리) 등
@@ -34,6 +36,20 @@
 
 
 ## Contents
+
+#### 22/5/7 swift에는 `;`가 없는 대신에, `@` `#` `?` `!`가 있다
+
+스위프트에는 `;`이 없다. 쓴다고 오류가 나지는 않는데, 굳이 안써도 된다. 그런데 `@` `#` `?` `!`는 있다. `@`는 컴파일러 지시문을 뜻하고, `#`는 스위프트 2 이하에서 파라미터 라벨이 파라미터 이름과 동일할 때 쓰는 기호이고, `?` `!`는 null safety를 위한 옵셔널 형식 관련 기호이다.
+
+익명함수는 `(parameter) -> (returnType) in expression/statement`와 같이 표현한다. 파라미터, 반환타입, in구문 등 상황에 따라 생략할 수 있다.
+
+스위프트에는 인터페이스 대신 프로토콜이 있고, 클래스와 구조체가 따로 있다더라.
+
+#### 22/4
+
+개발교육을 마치고 실무에 투입되었으나 성과가 더디다. 요구사항을 정확히 반영하지 못해 롤백하거나, 로컬에서 제대로 테스트하지 못하고 개발서버에 올렸다가 롤백하는 경우가 왕왕 있다. 
+
+요구사항, 테스트를 구체화하고 싶은데, 뾰족한 방법이 없어 엑셀로 조지고있다. 언제나 조져지는건 나이지만. 뭔가 방법이 없을까!
 
 #### 22/4/7 개발은 디테일하게
 
