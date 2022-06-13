@@ -8,7 +8,8 @@
 
 #### :runner: on-going
 
-- ios/swift
+- ios/swift, 12월까지, 이번달은 메뉴추천앱 만들어보자
+- 이펙티브자바 일독하기(0/90), 7월까지 
 
 #### :fist_oncoming: hold
 
