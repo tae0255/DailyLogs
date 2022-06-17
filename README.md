@@ -6,33 +6,30 @@
 
 그날그날 공부한 내용을 추려서 올립니다. TIL은 프라이빗 레포로 관리하고, 같이 나누고 싶은 내용은 [velog](https://velog.io/@tae0y)에 올립니다.
 
-#### :runner: on-going
+- :runner: **on-going**
+  - 토이프로젝트 ios/swift, 12월까지, 이번달은 메뉴추천앱 만들어보자
+    - swiftui
+    - storyboard
+    - flutter
+  - 이펙티브자바 일독하기(0/90), 7월까지 
+  - 헤드퍼스트 디자인패턴 3 / 14 챕터
+  
+- :fist_oncoming: **hold**
+  - Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
+    - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
+    - 자바11 이후의 변화
+  - 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100,  [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
+  - SQL 문제풀이 13 / 100, [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
+  - 프로그래머스 과제평가 연습문제 풀이
+  - Android Jetpack : Compose(선언형 UI 라이브러리) 등
+  - Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
+  - 포트폴리오 사이드프로젝트: 보안시각화, 링크관리, 시간표관리
 
-- ios/swift, 12월까지, 이번달은 메뉴추천앱 만들어보자
-- 이펙티브자바 일독하기(0/90), 7월까지 
-
-#### :fist_oncoming: hold
-
-- Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
-  - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
-  - 자바11 이후의 변화
-
-- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 40 / 48 강의
-
-- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100,  [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
-- SQL 문제풀이 13 / 100, [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
-
-- 프로그래머스 과제평가 연습문제 풀이
-- Android Jetpack : Compose(선언형 UI 라이브러리) 등
-- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
-- 토이프로젝트: kotlin/android (REST통신, 로컬DB CRUD, 커스텀뷰)
-- 헤드퍼스트 디자인패턴 3 / 14 챕터
-- 포트폴리오 사이드프로젝트: 보안시각화, 링크관리, 시간표관리
-
-####  :man_dancing: well-done
-- CS지식 구술평가 대비(네트워크/운영체제)
-- SpringBoot/JPA [인프런|김영한,실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
-- 토이프로젝트: vue/spring-boot/mariadb
+- :man_dancing: **well-done**
+  - SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 40 / 48 강의
+  - CS지식 구술평가 대비(네트워크/운영체제)
+  - SpringBoot/JPA [인프런|김영한,실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
+  - 토이프로젝트: vue/spring-boot/mariadb
 
 
 
