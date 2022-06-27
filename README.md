@@ -8,8 +8,8 @@
 
 #### :runner: on-going
 
-- ios/swift, 12월까지, 이번달은 메뉴추천앱 만들어보자
-- 이펙티브자바 일독하기(9/90), 7월까지 
+- ios/swift, 12월까지
+- 이펙티브자바 일독하기(11/90), 7월까지 
 
 #### :fist_oncoming: hold
 
@@ -29,13 +29,25 @@
 ####  :man_dancing: well-done
 - CS지식 구술평가 대비(네트워크/운영체제)
 - SpringBoot/JPA [인프런|김영한,실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
-- 토이프로젝트: vue/spring-boot/mariadb
+- 토이프로젝트: vue/spring-boot/mariadb - JWT토큰 사용한 로그인(SpringSecurity) 및 게시판(vue-routes)
+- 토이프로젝트: ios/swift/storyboard - 랜덤메뉴생성(REST, 뷰 동적생성)
 
 
 
 ## Contents
 
 ### 2022
+
+#### 22/6/27 equals, hashcode
+equals를 재정의하면 hashcode도 재정의! 논리적으로 같은 객체는 hash도 같아야한다.
+
+#### 22/6/26 ios 랜덤메뉴앱 헤딩4, 이번에는 여기까지
+깃헙에서 xib로 구현한 카드뷰를 찾아 적용했다. 버튼도 추가해줬는데, ios에서는 터치 이벤트에 파라미터를 더 넘길수가 없다. 버튼에 태그를 걸어 어떤 버튼인지 확인하고 다음 로직을 수행했다. info.plist에 미리 정의한 앱으로 URL을 통해 다른앱을 실행할 수 있는데, 안드로이드와 같이 묵시적 인텐트를 찾지 못해 아쉽다. 다음 과제는 constraint/anchor를 사용해 동적으로 뷰를 추가하는 방법, gestureRecognizer로 터치 이벤트 다루는 방법을 제대로 익히는 것이다.
+- scrollview
+  - stackview(vertical)
+    - (repeated) stackview(vertical)
+      - cardview
+      - button
 
 #### 22/6/20 ios 랜덤메뉴앱 헤딩3
 
