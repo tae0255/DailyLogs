@@ -9,7 +9,7 @@
 #### :runner: on-going
 
 - ios/swift, 12월까지
-- 이펙티브자바 일독하기(11/90), 7월까지 
+- 이펙티브자바 일독하기(13/90), 7월까지 
 
 #### :fist_oncoming: hold
 
@@ -37,6 +37,10 @@
 ## Contents
 
 ### 2022
+
+### 22/7/4 ios 랜덤메뉴앱 헤딩+1, autolayout 적용 성공
+
+그리고 한 가지 더!! 랜덤메뉴앱에 autolayout을 적용했다. leading / trailing constraint 개념을 알고나니 무척 간단히 끝났다. 불필요한 width / left constraint를 지우고, leading / trailing을 superview에 맞춰 0으로 설정해주었다. [소들님 블로그](https://babbab2.tistory.com/155?category=932180)를 참고했다. autolayout 카테고리를 순서대로 읽다보니 정말 쉽게 이해가 됐다. 애플 공식문서보다 낫다.
 
 #### 22/6/27 equals, hashcode
 equals를 재정의하면 hashcode도 재정의! 논리적으로 같은 객체는 hash도 같아야한다.
