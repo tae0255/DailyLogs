@@ -9,7 +9,7 @@
 #### :runner: on-going
 
 - ios/swift, 12월까지
-- 이펙티브자바 일독하기(13/90), 7월까지 
+- 이펙티브자바 일독하기(15/90), 7월까지
 
 #### :fist_oncoming: hold
 
