@@ -40,7 +40,27 @@
 
 ### 2022
 
-### 22/7/8 git의 데이터베이스 구조
+#### 22/7/18 git branch/tag/merge/rebase/cherry-pick
+
+git은 blog/tree/commit으로 구성된, CRUD 중 CR만 가능한 데이터베이스이다. 
+
+마치 commit alias처럼 branch/tag를 사용할 수 있다. 둘 다 commit을 가리키지만, branch는 가리키는 commit을 바꿀 수 있지만 tag는 그렇지 않다는 차이가 있다.
+
+merge는 두 개의 commit을 가리키는 새로운 commit을 만든다. 편집내용이 충돌하는 경우 아래와 같이 conflict를 수기로 조정해주면 된다.
+
+````
+<=====PREV COMMIT===== 
+previous 
+======================
+next 
+======NEXT COMMIT====>
+````
+
+rebase는 말 그대로 commit이 가리키는 base를 바꿔준다. 충돌이 발생하면 위와 같이 조정해준다.
+
+cherry-pick은 특정 commit만을 가져와 변경점을 추가하는 것이다. rebase는 가져올 commit이 가리키는 모든 commit 변경점을 가져오지만, cherry-pick은 지정한 commit의 변경점만 가져올 수 있다.
+
+#### 22/7/8 git의 데이터베이스 구조
 
 git은 키/밸류 형태로 데이터를 보관한다. 데이터는 insert/select만 가능하다. 해시 키가 다르면 파일이 변경되었음을 알 수 있다.
 
@@ -52,7 +72,7 @@ git은 키/밸류 형태로 데이터를 보관한다. 데이터는 insert/selec
 
   - `commit` : tree들의 해시를 다시 해싱한 키값, 메타데이터를 키/값 쌍으로 보관한다.
 
-### 22/7/4 ios 랜덤메뉴앱 헤딩+1, autolayout 적용 성공
+#### 22/7/4 ios 랜덤메뉴앱 헤딩+1, autolayout 적용 성공
 
 그리고 한 가지 더!! 랜덤메뉴앱에 autolayout을 적용했다. leading / trailing constraint 개념을 알고나니 무척 간단히 끝났다. 불필요한 width / left constraint를 지우고, leading / trailing을 superview에 맞춰 0으로 설정해주었다. [소들님 블로그](https://babbab2.tistory.com/155?category=932180)를 참고했다. autolayout 카테고리를 순서대로 읽다보니 정말 쉽게 이해가 됐다. 애플 공식문서보다 낫다.
 
