@@ -7,28 +7,18 @@
 
 #### :runner: on-going
 
-- ios/swift, ~ 11월 10일
-- 이펙티브자바 일독하기(15/90), 11월까지
+- 이펙티브자바 일독하기(15/90 + 7), 11월까지
 
 #### :fist_oncoming: hold
 
-- 코드숨, 소프트웨어 개발의 지혜 GIT, 8월 1주까지
-- 인프런, 스프링 배치, 7월 말일까지
-- Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
-  - 2주 더 투자해서 복습, 깃허브에 예제/내용요약 올리기
-  - 자바11 이후의 변화
-- SpringSecurity [인프런|백기선,스프링시큐리티](https://www.inflearn.com/course/%EB%B0%B1%EA%B8%B0%EC%84%A0-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0) 40 / 48 강의
-- 알고리즘 [solved.ac](https://solved.ac/profile/pty115) 19 / 100,  [백준|구현의왕 문제세트](https://www.acmicpc.net/problemset?sort=ac_desc&solvedac_option=xz%2Cxn&tier=11%2C12%2C13%2C14%2C15&algo=102&algo_if=and)
-- SQL 문제풀이 13 / 100, [HackerRank|SQL 문제세트](https://www.hackerrank.com/)
-- 프로그래머스 과제평가 연습문제 풀이
-- Android Jetpack : Compose(선언형 UI 라이브러리) 등
-- Kotlin/Android (~2월初)  [Udacity|코틀린으로 앱개발](https://classroom.udacity.com/courses/ud9012)  4 / 10 강의
-- 토이프로젝트: kotlin/android (REST통신, 로컬DB CRUD, 커스텀뷰)
-- 헤드퍼스트 디자인패턴 3 / 14 챕터
-- 포트폴리오 사이드프로젝트: 보안시각화, 링크관리, 시간표관리
+`null`
 
 ####  :man_dancing: well-done
-- CS지식 구술평가 대비(네트워크/운영체제)
+
+- ios/swift, 모바일 뿌시기 커뮤니티
+- 인프런, 스프링 배치 / 스프링 시큐리티
+
+- Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
 - SpringBoot/JPA [인프런|김영한,실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
 - 토이프로젝트: vue/spring-boot/mariadb - JWT토큰 사용한 로그인(SpringSecurity) 및 게시판(vue-routes)
 - 토이프로젝트: ios/swift/storyboard - 랜덤메뉴생성(REST, 뷰 동적생성)
@@ -38,6 +28,10 @@
 ## Contents
 
 ### 2022
+
+#### 22/11/6 이펙티브자바 스터디
+
+IllegalArgumentException, ArithmeticException, NullpointerException처럼 표준 예외를 사용하자. 명명패턴으로 프로그램요소를 식별하려하지 말고 가능하다면 어노테이션을 사용하자. 한정적 와일드카드를 사용하면 API 유연성을 높일 수 있다. 스트림 병렬화는 보통 원소 X 코드수가 수십만 이상이 되어야 성능개선 효과를 낼 수 있다.
 
 #### 22/10월회고
 
@@ -49,7 +43,7 @@
 
 팀에서 신입들이 작성한 매뉴얼을 공유하는 시간을 가졌다. 공유가 아니라 강평이 되었지만. 인터페이스 솔루션에 메모리 모니터링 기능이 없어 몇가지 tweak으로 대체하고 있었는데, 선배가 자바 기반이라면 JDK 기능을 사용해 heap 메모리를 모니터링할 수 있다고 알려주었다. 곧바로 관련 자료를 찾아 jmap 명령어로 heap 메모리를 덤프 떠서 콘솔에 출력하는 데까지 성공했다. 그런데 화면에 나온 수치들을 이해할 수 없다. Eden, Metaspace 같이 익숙한 단어들은 보이는데, 그래서 현재 메모리를 얼마나 쓰고 있고 가용 메모리는 얼마인지 이해하지 못했다. 충분한 시간을 갖고 분석해보자.
 
-#### 22/10/23 이펙티브자바 스터디
+#### 22/10/23 이펙티브자바 스터디 :city_sunset::sake:
 
 인터페이스 디폴트메서드(구현클래스를 고려하지 않으므로 주의), 병렬 스트림과 람다(유지보수가 어려움)를 주의해서 사용하자. 기본타입이 나도 모르게 박싱되지 않도록 주의하자. 
 
