@@ -7,7 +7,7 @@
 
 #### :runner: on-going
 
-- 이펙티브자바 일독하기(15/90 + 7), 11월까지
+- 인프런, 스프링배치 4.48% (약 45시간)
 
 #### :fist_oncoming: hold
 
@@ -15,19 +15,30 @@
 
 ####  :man_dancing: well-done
 
-- ios/swift, 모바일 뿌시기 커뮤니티
-- 인프런, 스프링 배치 / 스프링 시큐리티
+- 이펙티브자바 일독하기 - 프로그래밍 방법론에 대한 고민, 주요개념을 실제 업무시 적용해봄
+- ios/swift, 모바일 뿌시기 커뮤니티 - 모바일 프레임워크 전반에 대한 개론적인 공부
+- 인프런, 스프링배치/스프링시큐리티 - 스프링 배치/시큐리티 기본구조 이해후 실제 업무에 개념 적용
 
-- Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터
-- SpringBoot/JPA [인프런|김영한,실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션
+- Java8, 11 (~4.6.) [모던자바인액션](https://github.com/Modern-Java-in-Action/Online-Study/wiki) 21 / 21 챕터 - 자바8 이후의 주요기능, 특히 람다와 스트림 코드실습
+- SpringBoot/JPA [인프런|김영한,실전JPA활용1](https://www.inflearn.com/course/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8-JPA-%ED%99%9C%EC%9A%A9-1/dashboard) 7 / 7 섹션 - 스프링 프레임워크의 기본구조에 대해 이해
 - 토이프로젝트: vue/spring-boot/mariadb - JWT토큰 사용한 로그인(SpringSecurity) 및 게시판(vue-routes)
-- 토이프로젝트: ios/swift/storyboard - 랜덤메뉴생성(REST, 뷰 동적생성)
+- 토이프로젝트: ios/swift/storyboard - 현재위치기반 랜덤 음식점 추천(REST API 사용, 뷰동적생성)
 
 
 
 ## Contents
 
+### 2023
+
+#### 22/1/2 스프링배치는 테이블 스키마가 표준으로 정해져 있다.
+
+배치잡 스케줄, 파라미터 등 테이블 스키마가 표준으로 정해져 있다.
+
 ### 2022
+
+#### 2022 회고
+
+중간중간 커밋하지 못한 날들도 많지만, 그만큼 회사에서 많은 것을 배우는 시기였다. 좋아하는 일을 처음으로 시작했던 올해를, 꼭 기억해두자.
 
 #### 22/11/13 이펙티브자바 스터디
 
